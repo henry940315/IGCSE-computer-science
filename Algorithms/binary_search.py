@@ -8,8 +8,8 @@
 
 
 
-sorted_list = [1,2,4,5,8,9,12,15,75,100]
-target = 1
+sorted_list = [1,2,4,5,8,9,12,15,75,88,91,95,100]
+target = 100
 def binary_search(sorted_list, target):
     left_idx = 0
     right_idx = len(sorted_list) -1
@@ -31,3 +31,5 @@ def binary_search(sorted_list, target):
 
 result = binary_search(sorted_list, target)
 print('the target number is at list index:', result)
+
+
